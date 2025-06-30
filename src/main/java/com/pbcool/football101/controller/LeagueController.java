@@ -2,8 +2,8 @@ package com.pbcool.football101.controller;
 
 
 import com.pbcool.football101.models.League;
-import com.pbcool.football101.models.LeagueData;
-import com.pbcool.football101.models.LeagueDataRequest;
+//import com.pbcool.football101.models.LeagueData;
+//import com.pbcool.football101.models.LeagueDataRequest;
 import com.pbcool.football101.service.LeagueService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -20,14 +20,14 @@ public class LeagueController {
 
     @GetMapping("allLeagues")
     public ResponseEntity<List<League>> getAllLeagues(){
-        return leagueService.getAllQuestions();
+        return leagueService.getAllLeagues();
     }
 
-    @PostMapping("add")
-    public ResponseEntity<String> assignTeamToLeague(@RequestBody LeagueDataRequest request){
-
-        return  leagueService.assignTeamToLeague(request);
-    }
+//    @PostMapping("add")
+//    public ResponseEntity<String> assignTeamToLeague(@RequestBody LeagueDataRequest request){
+//
+//        return  leagueService.assignTeamToLeague(request);
+//    }
 
 
 }
