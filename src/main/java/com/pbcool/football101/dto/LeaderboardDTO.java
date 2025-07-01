@@ -1,11 +1,10 @@
-package com.pbcool.football101.models;
+package com.pbcool.football101.dto;
 
+import com.pbcool.football101.models.Leaderboard;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-//import lombok.AllArgsConstructor;
-//import lombok.Data;
-//
+
 @Data
 @AllArgsConstructor
 public class LeaderboardDTO {

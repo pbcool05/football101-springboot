@@ -1,7 +1,7 @@
 package com.pbcool.football101.controller;
 
 
-import com.pbcool.football101.models.MatchDataRequest;
+import com.pbcool.football101.requests.MatchDataRequest;
 import com.pbcool.football101.service.MatchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -1,8 +1,7 @@
 package com.pbcool.football101.controller;
 
-import com.pbcool.football101.models.LeaderBoardDataRequest;
-import com.pbcool.football101.models.Leaderboard;
-import com.pbcool.football101.models.LeaderboardDTO;
+import com.pbcool.football101.requests.LeaderBoardDataRequest;
+import com.pbcool.football101.dto.LeaderboardDTO;
 import com.pbcool.football101.service.LeaderboardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

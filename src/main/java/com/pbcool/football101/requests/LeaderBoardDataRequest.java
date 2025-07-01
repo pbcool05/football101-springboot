@@ -1,4 +1,4 @@
-package com.pbcool.football101.models;
+package com.pbcool.football101.requests;
 
 import lombok.Data;
 
