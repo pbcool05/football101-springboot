@@ -19,11 +19,11 @@ public class Leaderboard {
     @JoinColumn(name = "league_id")
     private League league;
 
+    @Column(name = "matches_played")
+    private int matchesPlayed;
+
     private int won;
     private int lost;
     private int drawn;
-
-    @Column(name = "matches_played")
-    private int matchesPlayed;
     private int points;
 }
