@@ -79,14 +79,16 @@ public class MatchService {
 
             awayBoard.setLost(awayBoard.getLost() + 1);
 
-        } else if (match.getWinner().equals(away.getTeamName())) {
+        }
+        else if (match.getWinner().equals(away.getTeamName())) {
             // Away team won
             awayBoard.setWon(awayBoard.getWon() + 1);
             awayBoard.setPoints(awayBoard.getPoints() + 3);
 
             homeBoard.setLost(homeBoard.getLost() + 1);
 
-        } else if(match.getWinner().equals(("draw"))){
+        }
+        else if(match.getWinner().equals(("draw"))){
             // Draw
             homeBoard.setDrawn(homeBoard.getDrawn() + 1);
             awayBoard.setDrawn(awayBoard.getDrawn() + 1);
